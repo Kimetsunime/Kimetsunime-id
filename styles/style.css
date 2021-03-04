@@ -1,8 +1,8 @@
 html {
+  scroll-behavior: smooth;
   font-size: auto;
   font-family: 'Open Sans', sans-serif;
 }
-
 
 h1 {
   font-size: auto;
@@ -103,11 +103,13 @@ footer a {
 }
 
 /*Animation*/
-.headers .image {
-  display: block;
-  margin: 0 auto;
-  opacity: 0%;
-  width: 5%;
-  height: auto;
-  transition-delay: opacity 2s ease, transform 2s ease;
+.reveal {
+  position: relative;
+  transform: translateX(-150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+.reveal.vanish {
+  transform: translateX(0px);
+  opacity: 1;
 }

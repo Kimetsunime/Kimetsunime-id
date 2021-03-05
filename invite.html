@@ -40,6 +40,10 @@
   </body>
   <script type="text/javascript" charset="utf-8">
     onScroll()
+    let test = () => {
+      onScroll()
+      console.log('it happend')
+    }
     window.addEventListener('scroll', onScroll)
   </script>
 </html>

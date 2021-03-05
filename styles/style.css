@@ -109,7 +109,7 @@ footer a {
   opacity: 0;
   transition: all 2s ease;
 }
-.reveal.vanish {
+.reveal.vanish:not('.navbar') {
   transform: translateX(0px);
   opacity: 1;
 }
@@ -121,7 +121,7 @@ footer a {
   transition: all 2s ease;
 }
 
-.navbar .active {
+.navbar .vanish {
   opacity: 1;
   transform: translateY(0px);
 }

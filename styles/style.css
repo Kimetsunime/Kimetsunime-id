@@ -114,14 +114,14 @@ footer a {
   opacity: 1;
 }
 
-.navbar {
+.navbar .reveal{
   position: relative;
   transform: translateX(-150px);
-  opacity: 0;
+  opacity: 1;
   transition: all 2s ease;
 }
 
-.navbar .vanish {
+.navbar .reveal .vanish {
   opacity: 1;
   transform: translateX(0px);
 }

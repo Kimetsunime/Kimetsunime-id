@@ -103,7 +103,7 @@ footer a {
 }
 
 /*Animation*/
-.reveal {
+.reveal:not(.navbar) {
   position: relative;
   transform: translateX(-150px);
   opacity: 0;

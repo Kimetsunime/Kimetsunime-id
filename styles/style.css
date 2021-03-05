@@ -103,25 +103,13 @@ footer a {
 }
 
 /*Animation*/
-.reveal:not(.navbar) {
+.reveal {
   position: relative;
   transform: translateX(-150px);
   opacity: 0;
   transition: all 2s ease;
 }
-.reveal.vanish:not(.navbar) {
+.reveal.vanish {
   transform: translateX(0px);
   opacity: 1;
-}
-
-.navbar{
-  position: relative;
-  transform: translateY(150px);
-  opacity: 0;
-  transition: all 2s ease;
-}
-
-.navbar.vanish {
-  opacity: 1;
-  transform: translateY(0px);
 }
